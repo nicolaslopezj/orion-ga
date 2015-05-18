@@ -1,0 +1,1 @@
+orion.config.add('GA_TRACKING_CODE', 'analytics', { public: true });
