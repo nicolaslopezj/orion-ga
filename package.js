@@ -1,14 +1,14 @@
 Package.describe({
   name: 'nicolaslopezj:orion-ga',
   summary: 'Google analytics that work with orion config',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/nicolaslopezj/orion-ga'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
-  api.use(['meteor-platform', 'orionjs:config@1.0.0']);
+  api.use(['meteor-platform', 'orionjs:config@1.0.2']);
 
   api.addFiles('config.js');
 
